@@ -1,0 +1,475 @@
+section.flower {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.petal {
+    position: absolute;
+    width: 9.3rem;
+    height: 9.3rem;
+    border: 2px solid #c6ccb5;
+    box-shadow: 3px 3px 3px #c6ccb5;
+}
+
+/* first petal */
+div.petal:nth-child(1) {
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(47deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(2) {
+    /* width: 100px; */
+    z-index: 1;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(45deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(3) {
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(43deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* second petal */
+  div.petal:nth-child(4) {
+    z-index: 2;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(55deg) skew(35deg, 35deg) translate(-3.8rem, -4.7rem);
+  }
+  div.petal:nth-child(5) {
+    z-index: 4;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(53deg) skew(35deg, 35deg) translate(-3.8rem, -4.7rem);
+  }
+  div.petal:nth-child(6) {
+    z-index: 3;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(51deg) skew(35deg, 35deg) translate(-3.8rem, -4.7rem);
+  }
+  
+  /* third petal */
+  div.petal:nth-child(7) {
+    z-index: 5;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(74deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(8) {
+    z-index: 7;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(72deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(9) {
+    z-index: 6;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(70deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* fourth petal */
+  div.petal:nth-child(10) {
+    z-index: 8;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(93deg) skew(35deg, 35deg) translate(-4.4rem, -4.7rem);
+  }
+  div.petal:nth-child(11) {
+    z-index: 10;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(91deg) skew(35deg, 35deg) translate(-4.4rem, -4.7rem);
+  }
+  div.petal:nth-child(12) {
+    z-index: 9;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(89deg) skew(35deg, 35deg) translate(-4.4rem, -4.7rem);
+  }
+  
+  /* fifth petal */
+  div.petal:nth-child(13) {
+    z-index: 11;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(103deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(14) {
+    z-index: 13;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(101deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(15) {
+    z-index: 12;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(99deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* sixfth petal */
+  div.petal:nth-child(16) {
+    z-index: 14;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(113deg) skew(35deg, 35deg) translate(-4.1rem, -4.7rem);
+  }
+  div.petal:nth-child(17) {
+    z-index: 16;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(111deg) skew(35deg, 35deg) translate(-4.1rem, -4.7rem);
+  }
+  div.petal:nth-child(18) {
+    z-index: 15;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(109deg) skew(35deg, 35deg) translate(-4.1rem, -4.7rem);
+  }
+  
+  /* seventh petal */
+  div.petal:nth-child(19) {
+    z-index: 17;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(125deg) skew(35deg, 35deg) translate(-3.6rem, -4.7rem);
+  }
+  div.petal:nth-child(20) {
+    z-index: 19;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(123deg) skew(35deg, 35deg) translate(-3.6rem, -4.7rem);
+  }
+  div.petal:nth-child(21) {
+    z-index: 18;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(121deg) skew(35deg, 35deg) translate(-3.6rem, -4.7rem);
+  }
+  
+  /* eigth petal */
+  div.petal:nth-child(22) {
+    z-index: 14;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(147deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(23) {
+    z-index: 16;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(145deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(24) {
+    z-index: 15;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(143deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* ninth petal */
+  div.petal:nth-child(25) {
+    z-index: 11;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(161deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(26) {
+    z-index: 13;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(159deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(27) {
+    z-index: 12;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(157deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* tenth petal */
+  div.petal:nth-child(28) {
+    z-index: 10;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(188deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(29) {
+    z-index: 13;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(186deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(30) {
+    z-index: 12;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(184deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* eleventh petal */
+  div.petal:nth-child(31) {
+    z-index: 1;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(206deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(32) {
+    z-index: 3;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(204deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(33) {
+    z-index: 2;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(202deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* twelfth petal */
+  div.petal:nth-child(34) {
+    z-index: 4;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(218deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(35) {
+    z-index: 6;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(216deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(36) {
+    z-index: 5;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(214deg) rotateY(30deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* thirtieth petal */
+  div.petal:nth-child(37) {
+    z-index: 7;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(222deg) rotateY(50deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(38) {
+    z-index: 9;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(220deg) rotateY(50deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(39) {
+    z-index: 8;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(218deg) rotateY(50deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* fourteenth petal */
+  div.petal:nth-child(40) {
+    z-index: 1;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(242deg) rotateY(33deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(41) {
+    z-index: 3;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(240deg) rotateY(33deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(42) {
+    z-index: 2;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(238deg) rotateY(33deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* fifteenth petal */
+  div.petal:nth-child(43) {
+    z-index: 7;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(266deg) rotateY(40deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(44) {
+    z-index: 9;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(264deg) rotateY(40deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(45) {
+    z-index: 8;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(262deg) rotateY(40deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* sixteenth petal */
+  div.petal:nth-child(46) {
+    z-index: 4;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(284deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(47) {
+    z-index: 6;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(282deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(48) {
+    z-index: 5;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(280deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* seventeenth petal */
+  div.petal:nth-child(49) {
+    z-index: 1;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(301deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(50) {
+    z-index: 3;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(299deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(51) {
+    z-index: 2;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(297deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* eighteenth petal */
+  div.petal:nth-child(52) {
+    z-index: 4;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(311deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(53) {
+    z-index: 6;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(309deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(54) {
+    z-index: 5;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(307deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* nineteenth petal */
+  div.petal:nth-child(55) {
+    z-index: 1;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(324deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(56) {
+    z-index: 3;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(322deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(57) {
+    z-index: 2;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(320deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* twentieth petal */
+  div.petal:nth-child(58) {
+    z-index: 4;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(337deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(59) {
+    z-index: 6;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(335deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(60) {
+    z-index: 5;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(333deg) rotateY(35deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* twentyfirst petal */
+  div.petal:nth-child(61) {
+    z-index: 7;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(359deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(62) {
+    z-index: 9;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(357deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(63) {
+    z-index: 8;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(355deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  
+  /* twentysecond petal */
+  /* div.petal:nth-child(64) {
+    z-index: 10;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(374deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(65) {
+    z-index: 12;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(372deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(66) {
+    z-index: 11;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(370deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  } */
+  
+  /* twentythird petal */
+  div.petal:nth-child(64) {
+    z-index: 10;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(384deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(65) {
+    z-index: 12;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(382deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
+  div.petal:nth-child(66) {
+    z-index: 11;
+    background: linear-gradient(to bottom right, #fff, #e4e6de);
+    border-radius: 50% 50% 0 50%;
+    transform: rotateZ(380deg) skew(35deg, 35deg) translate(-4.7rem, -4.7rem);
+  }
