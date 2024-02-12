@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.cdnfonts.com/css/amour-stories');
+@import url('https://fonts.cdnfonts.com/css/meldina');
+
+.actual-letter-containter{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.actual-letter {
+  position: relative;
+  z-index: 9999;
+  color: #E18AAA;
+  width: 37.5rem;
+  height: 50rem;
+  background: #fbf5e9;
+  border-radius: 1%;
+  font-family: "Cedarville Cursive", cursive;
+  /* font-family: 'Amour Stories', sans-serif; */
+  /* font-family: 'Meldina', sans-serif; */
+                                                
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: flex;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.letter-header {
+    margin: 30px;
+}
+
+.envelope-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.envelope {
+  width: 224px;
+  height: 224px;
+  overflow: hidden;
+  position: ap;
+  transition: all ease;
+  animation: tremble 1s infinite;
+}
+.envelope--base {
+  top: 100px;
+  z-index: 2;
+  width: 220px;
+  height: 121px;
+  position: relative;
+  border-radius: 4px;
+  border: 2px solid #00000024;
+  background-color: #EFCFD4;
+}
+.envelope__tab {
+  left: 28px;
+  z-index: 1;
+  bottom: 26px;
+  width: 212px;
+  height: 140px;
+  position: absolute;
+  transform: rotateZ(45deg);
+  border-top-left-radius: 30px;
+  background-color: #F5DCE0;
+  border: 2px solid #00000024;
+}
+.envelope__letter {
+  left: 29px;
+  z-index: 3;
+  width: 158px;
+  bottom: 17px;
+  height: 121px;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: oblique;
+  padding: 12px 18px;
+  border-radius: 8px;
+  position: absolute;
+  box-sizing: border-box;
+  background-size: cover;
+  color: #a59090;
+  border: 1px solid #00000024;
+  transition: all 0.6s linear 0.4s;
+  color: #E18AAA;
+  background: #fbf5e9;
+  font-family: "Cedarville Cursive", cursive;
+}
+.envelope__letter:hover {
+  height: 170px;
+  color: #4c4444;
+}
+.envelope__letter:before {
+  content: "";
+  height: 0;
+  width: 6px;
+  right: -34px;
+  bottom: -17px;
+  position: absolute;
+  border-top: 56px solid transparent;
+  border-left: 107px solid #F5DCE0;
+  border-right: 107px solid #F5DCE0;
+  border-bottom: 65px solid #EFCFD4;
+}
+.shadow {
+  width: 230px;
+  height: 30px;
+  position: absolute;
+  background-color: #75757524;
+  border-radius: 50%;
+  bottom: 26vh;
+  animation: shadow 3s infinite;
+}
+@keyframes shadow {
+  0% {
+    width: 230px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 230px;
+  }
+}
+@keyframes tremble {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.spin {
+  animation: spin 2s linear infinite; /* 2s duration, linear easing, infinite loop */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Starting angle */
+  }
+  to {
+    transform: rotate(360deg); /* Ending angle (one full rotation) */
+  }
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
