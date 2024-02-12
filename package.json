@@ -1,8 +1,8 @@
 {
-  "name": "my-vue-app",
-  "private": true,
+  "name": "valentines",
+  "private": false,
   "version": "0.0.0",
-  "homepage": "https://BrianAvendanoLuciano.github.io/valentines",
+  "homepage": "https://brianavendanoluciano.github.io/valentines",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
