@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className='letter'>
           <Link className="message letter-link" to="/quiz-bro">
-            <h1>View my letter for you</h1>
+            <h1>Letter</h1>
           </Link>
         </div>
       </section>

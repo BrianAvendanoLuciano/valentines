@@ -115,7 +115,7 @@ export default function Quiz() {
     answers[2] === 'c4' ? points++ : false
     answers[3] === 'c2' ? points++ : false
     answers[4] === 'c1' ? points++ : false
-    answers[5].toLowerCase().includes('may 2') ? points++ : false
+    answers[5].toLowerCase().includes('may') ? points++ : false
     answers[6].toLowerCase().includes('adobo') ? points++ : false
     answers[7].toLowerCase().includes('farlight') ? points++ : false
     answers[8].toLowerCase().includes('me') ? points++ : false
@@ -134,7 +134,7 @@ export default function Quiz() {
         </style>
       </Helmet>
       <div className='zoom-100'>
-        <h1>Zoom mo 100X</h1>
+        <h1>Zoom mo 100%</h1>
       </div>
       {
         currentQuestionIndex === -1 ?

@@ -34,12 +34,12 @@ export default function Letter() {
                         <h2>Dear Crystal,</h2>
                         <h3>While making this website for valentines,</h3>
                         <h3>Naisip ko na baka may maka access na iba nito kaya di ko ilalagay yung totoong letter ko dito 😉 </h3>
-                        <h3>Happy Valentines Bes/Beshy/Bebi/Rose/Baby/Love/Wifey.</h3>
+                        <h3>Happy Valentines Bes/Beshy/Bebi/Rose/Baby/Bro/Lods/Love/Wifey.</h3>
                         <h3>Lahat yan naging tawagan natin, Kaya masaya ako at ikaw ay naging akin</h3>
                         <h3>Sheeesh nag rhyme, bigla ko lang naisip yan habang nag tatype dito hahaha</h3>
                         <h3>Anyway, I Love you <span className='strikethrough'>bhebhegirlhoneybunchsugarplum</span> Baby</h3>
-                        <h3>Can't wait to see you on Feb 17.</h3>
-                        <h3>Please sana pag dating ko dyan, naka ready ka na hahaha</h3>
+                        <h3>Can't wait to see you on Feb 16.</h3>
+                        <h3>Saka na yung chicharon bulaklak pag gumala tayo sa 17 😂</h3>
                         <h3>See You 😘</h3>
                         <h2 className='letter-ending'>Love, Brian</h2>
                     </div>
